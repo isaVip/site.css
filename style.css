@@ -12,7 +12,7 @@ body{
 }
 
 #cabecalho{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     font-family:helvedica;
     padding: 10px;
     text-align: center;
