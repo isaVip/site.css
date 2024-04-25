@@ -43,17 +43,23 @@ body{
 }
 
 #conteudo{
-    height: 500px;
-    width: 600px;
+    position: absolute;
+    height: 25%;
+    width: 93.2%;
     background-color: rgba(240, 248, 255, 0.764);
-    margin-left: 100px;
-    margin-top: 10px;
     padding: 50px;
-    border-radius: 50px;
-    text-align: center;
+    text-align:justify;
     color: rgb(102, 54, 6);
     float:left;
+    display: flex;
+    justify-content: center;
     align-items: center;
+}
+
+#conteudo h1{
+    width: 100px;
+    word-wrap: break-word;
+
 }
 
 /*#rodape{
