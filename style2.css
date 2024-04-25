@@ -54,19 +54,28 @@ body{
     margin-top: 10px;
 }
 
-#conteudo{
-    position: absolute;
-    height: 25%;
-    width: 93.5%;
+#intro{
+    height: 10px;
+    width: 93.2%;
     background-color: rgba(240, 248, 255, 0.764);
+    margin-top: 1px;
     padding: 50px;
     text-align:justify;
     color: rgb(102, 54, 6);
     float:left;
-    display: flex;
-    justify-content: center;
     align-items: center;
-    margin-block-end: 10px;
+}
+
+#conteudo{
+    height: 260px;
+    width: 46%;
+    background-color: rgba(240, 248, 255, 0.764);
+    margin-top: 10px;
+    text-align:justify;
+    color: rgb(102, 54, 6);
+    float:left;
+    align-items: center;
+    margin-left: 25px;
 }
 
 #conteudo h1{
@@ -78,10 +87,39 @@ body{
 }
 #conteudo p{
     flex-direction: column;
-    display: inline-block;  
+    display: inline-block;
     list-style: circle;
     padding-inline-start: 50px;
 }
+
+#conteudo2{
+    position: relative;
+    height: 260px;
+    width: 46%;
+    background-color: rgba(240, 248, 255, 0.764);
+    margin-top: 10px;
+    text-align:justify;
+    color: rgb(102, 54, 6);
+    float:left;
+    align-items: center;
+    margin-right:25px;
+    margin-left: 19px;
+}
+
+#conteudo2 h1{
+    width: 800px;
+    height: 250px;
+    word-wrap: break-word;
+    margin-right: 10px;
+    padding-top: 50px;
+}
+#conteudo2 p{
+    flex-direction: column;
+    display: inline-block;
+    list-style: circle;
+    padding-inline-start: 50px;
+}
+
 /*#rodape{
         height: 100px;
         background-color: rgb(58, 57, 57);
@@ -92,6 +130,7 @@ body{
 }*/
 
 #lado{
+    background-color: lightseagreen;
     float: left;
     margin-top: 10px;
     margin-block-end: 8px;
@@ -99,39 +138,54 @@ body{
     margin-left: 80px;
 }
 
-#conteudo2{
-    position: absolute;
-    height: 29%;
-    width: 93.5%;
+#conteudo3{
+    height: 180px;
+    width: 46%;
     background-color: rgba(240, 248, 255, 0.764);
-    padding: 50px;
+    margin-top: 10px;
     text-align:justify;
     color: rgb(102, 54, 6);
     float:left;
-    justify-content: center;
     align-items: center;
-    margin-top: 290px;
-    border-top: 2px solid;
+    margin-left: 25px;
 }
 
-#conteudo2 h2{
-    width: 150px;
-    height: 150px;
+#conteudo3 h1{
+    width: 800px;
+    height: 250px;
     word-wrap: break-word;
     margin-right: 10px;
     padding-top: 50px;
 }
-
-#conteudo2 p{
-    height: 90px ;
-    width: 650px;
-    position:relative;
+#conteudo3 p{
     flex-direction: column;
-    flex: 2;
-    display: inline-block;  
+    display: inline-block;
     list-style: circle;
-    padding-inline-start: 100px;
-    top: -95%;
+    padding-inline-start: 50px;
+}
+
+#conteudo4{
+    height: 180px;
+    width: 46%;
+    background-color: rgba(240, 248, 255, 0.764);
+    margin-top: 10px;
+    text-align:justify;
+    color: rgb(102, 54, 6);
+    float:left;
+    align-items: center;
+    margin-left: 25px;
+}
+
+#conteudo4 h1{
+    width: 800px;
+    height: 250px;
     word-wrap: break-word;
-    margin-left: 150px ;
+    margin-right: 10px;
+    padding-top: 50px;
+}
+#conteudo4 p{
+    flex-direction: column;
+    display: inline-block;
+    list-style: circle;
+    padding-inline-start: 50px;
 }
